@@ -5,9 +5,9 @@ import { useSelectedLayoutSegments } from 'next/navigation';
 
 export default function NavLink({ href, children }) {
   let segment = useSelectedLayoutSegments(); //client component hook
-  console.log({ href, segment });
+  // console.log({ href, segment });
   let active = href === `/${segment}`;
-  console.log({ href, active });
+  // console.log({ href, active });
   return (
     <Link className={active ? 'underline' : ''} href={href}>
       {children}
