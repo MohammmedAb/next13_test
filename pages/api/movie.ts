@@ -12,17 +12,17 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
   res.status(200).json([
     {
       id: '1',
-      title: 'Movie 1',
-      year: 2021,
+      title: 'interstellar',
+      year: 2014,
       description:
-        'Movie 1 description description description description description description description description description description description description description ',
+        'When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans ',
     },
     {
       id: '2',
-      title: 'Movie 2',
-      year: 2020,
+      title: 'La La Land',
+      year: 2016,
       description:
-        'Movie 2 description description description description description description description description description description description description description ',
+        'When Sebastian, a pianist, and Mia, an actress, follow their passion and achieve success in their respective fields, they find themselves torn between their love for each other and their careers',
     },
   ]);
 }
