@@ -14,7 +14,7 @@ export default async function Layout({children}) {
 
   return (
     <div className="flex">
-      <ul className="pr-10 text-sm"> 
+      <ul className="pr-10 text-sm flex-none"> 
         {movies.map((movie) => (
           <li key={movie.id}><Link href={`/movies/${movie.id}`}>{movie.title}</Link></li>
         ))}
