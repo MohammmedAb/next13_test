@@ -1,3 +1,7 @@
+Nested layouts Nextjs 13  
+Code along with [Sam Selikoff](https://www.youtube.com/watch?v=6mQ3M1CUGnk)
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
